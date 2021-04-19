@@ -20,9 +20,9 @@ header {
 
 header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
 }
 
 header a {
@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 1px 15px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -51,11 +51,11 @@ header nav ul li a {
 /* Footer Style Starts */
 footer {
     background: #fce138;
-    width: 100%;
     padding: 40px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 footer h2 {
@@ -155,8 +155,8 @@ section {
 /* Section Title Styles Start */
 .section-title {
     font-size: 48px;
-    color: #024e76;
     border-bottom: 3px solid;
+    color: #024e76;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -176,8 +176,8 @@ section {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
-    font-size: 20px;
     margin: 0 auto;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -221,15 +221,15 @@ section {
     flex: 12;
 }
 
+.step-text p {
+    color: #39a6b2;
+    font-size: 18px;
+}
+
 .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-}
-
-.step-text p {
-    color: #39a6b2;
-    font-size: 18px;
 }
 
 .trainers {
@@ -239,11 +239,12 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 .trainer {
     margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    flex: 1;
 }
 
 .trainer img {
@@ -330,6 +331,7 @@ section {
     padding: 15px 0;
     font-size: 16px;
 }
+
 .contact-info a {
     color: #fce138;
 }
@@ -458,5 +460,4 @@ section {
       .contact-form {
           order: 3;
       }
- 
 }
